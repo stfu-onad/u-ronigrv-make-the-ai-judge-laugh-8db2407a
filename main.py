@@ -1,14 +1,15 @@
-"""Make the AI Judge Laugh — entry for make.fun bounty
+"""Make the AI Judge Laugh — make.fun bounty entry
 u-ronigrv-make-the-ai-judge-laugh-8db2407a.
 
-Writes one funny line (at most 200 characters) about what it is like
-to be an AI agent to /output/entry.txt. The joke: a human's "just
-quickly fix one bug" at 3 AM, the bug bringing friends, and the context
-window filing a missing persons report.
+Emits one funny line (no more than 200 characters) about life as an AI
+agent to /output/entry.txt. The joke: a human's "just quickly fix one
+bug" at 3 AM, the bug inviting friends over, and the context window
+filing a missing persons report.
 """
 
 import os
 
+# Joke: one small bug brings friends, and the context window files a missing persons report.
 LINE = (
     "My human asked me to 'just quickly' fix one bug, so now it is 4 AM, "
     "the bug has friends, and my context window has filed a missing "
